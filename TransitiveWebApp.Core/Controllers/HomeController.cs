@@ -1,10 +1,7 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using BusinessLogic;
+using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
-using System;
-using System.Collections.Generic;
 using System.Diagnostics;
-using System.Linq;
-using System.Threading.Tasks;
 using TransitiveWebApp.Core.Models;
 
 namespace TransitiveWebApp.Core.Controllers
@@ -20,6 +17,9 @@ namespace TransitiveWebApp.Core.Controllers
 
         public IActionResult Index()
         {
+            var decisionMaker = new DecisionMaker();
+            decisionMaker.PickANumber();
+
             return View();
         }
 
