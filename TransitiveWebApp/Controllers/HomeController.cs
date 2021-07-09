@@ -1,7 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Web;
+﻿using BusinessLogic;
 using System.Web.Mvc;
 
 namespace TransitiveWebApp.Controllers
@@ -11,6 +8,9 @@ namespace TransitiveWebApp.Controllers
         public ActionResult Index()
         {
             ViewBag.Title = "Home Page";
+
+            var decisionMaker = new DecisionMaker();
+            decisionMaker.PickANumber();
 
             return View();
         }
