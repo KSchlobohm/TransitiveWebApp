@@ -5,9 +5,11 @@ VisualStudioVersion = 16.0.31410.223
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TransitiveWebApp", "TransitiveWebApp\TransitiveWebApp.csproj", "{7A2B4A2F-2E0E-4508-8E2E-3C53D3E46402}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BusinessLogic", "BusinessLogic\BusinessLogic.csproj", "{D6474808-953C-4874-B0A5-AAEDA5CA9303}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BusinessLogic", "BusinessLogic\BusinessLogic.csproj", "{D6474808-953C-4874-B0A5-AAEDA5CA9303}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Logging", "Logging\Logging.csproj", "{59126C26-BEAE-4238-A3E8-DBF2071F2BB3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Logging", "Logging\Logging.csproj", "{59126C26-BEAE-4238-A3E8-DBF2071F2BB3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TransitiveWebApp.Core", "TransitiveWebApp.Core\TransitiveWebApp.Core.csproj", "{A3AA5BE1-895F-45CC-B706-7598F255BAB0}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,6 +29,10 @@ Global
 		{59126C26-BEAE-4238-A3E8-DBF2071F2BB3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{59126C26-BEAE-4238-A3E8-DBF2071F2BB3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{59126C26-BEAE-4238-A3E8-DBF2071F2BB3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A3AA5BE1-895F-45CC-B706-7598F255BAB0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A3AA5BE1-895F-45CC-B706-7598F255BAB0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A3AA5BE1-895F-45CC-B706-7598F255BAB0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A3AA5BE1-895F-45CC-B706-7598F255BAB0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
